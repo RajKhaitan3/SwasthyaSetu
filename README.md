@@ -1,18 +1,22 @@
-# Swasthya Setu
+# Swasthya Setu 🏥
 
-A comprehensive healthcare platform that connects patients, doctors, and hospitals. It provides:
+A full-stack Hospital Management Web Application that connects 
+patients, doctors, and hospital administrators on a single platform.
 
-- **Appointment booking** with payment-first token generation
-- **AI symptom checker** powered by Gemini models
-- **Admin dashboards** for analytics and management
-- **Patient portal** for medical records, financial ledgers, and more
+## Features
+
+- 📅 **Appointment Booking** — Payment-first token generation system
+- 👤 **Patient Portal** — Medical records and financial ledger management  
+- 📊 **Admin Dashboard** — Analytics and hospital management tools
+- 🔐 **Role-based Access** — Separate flows for patients, doctors, and admins
 
 ## Tech Stack
 
-- **Backend**: Django (Python) with SQLite (development) / MongoDB
-- **Frontend**: Vite + React (JavaScript/JSX) with modern UI components
-- **AI**: Gemini models for symptom analysis
-- **Styling**: CSS modules and custom design system
+| Layer | Technology |
+|---|---|
+| Frontend | React (Vite), JavaScript, CSS |
+| Backend | Django (Python) |
+| Database | SQLite (dev) / PostgreSQL (prod) |
 
 ## Getting Started
 
@@ -23,7 +27,7 @@ cd SwasthyaSetu
 
 # Backend setup
 python -m venv venv
-source venv/bin/activate  # on Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
@@ -34,10 +38,10 @@ npm install
 npm run dev
 ```
 
-## Contributing
+## Status
 
-Feel free to open issues or submit pull requests. Follow the contribution guidelines and ensure code passes the CI checks.
+🚧 Actively in development — features are being improved and expanded.
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License
